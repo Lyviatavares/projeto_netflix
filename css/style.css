@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0%;
+    line-height: 100%;
+    font-weight: 500;
+    font-size: 50px;
+
+}
+
+p{
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container-text h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+
+
+.hero-section{
+width: 100%;
+position: absolute;
+}
+
+
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+
+}
+
+.imagem-section-back{
+    background-image: url(../img/imagem-fundo.png);
+    background-size: cover;
+    height: 100vh; /*100% da tela*/
+}
+
+.container-text{
+text-align: center;
+padding-top: 158px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu img{
+    margin-left: 4px;
+
+}
+
+.btn-menu{
+    background: #E50914;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px 18px;
+    width: 80px;
+    height: 34px;
+    font-weight: 400;
+   font-size: 16px;
+} /*botão vermelho header*/
+
+.menu .btn{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: transparent;
+   color: white;
+   border-color: white;
+   padding: 8px 22px;
+   margin-right: 41px;} /*botão transparente header*/
+
+.btn-hero{
+    background: #E50914;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+    border: none;
+    width: 184px;
+    height: 60px;
+    font-size: 26px;
+    cursor: pointer;
+
+    
+}/*botão hero section*/
+
+.inscricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+.container-text input[type=text]{
+    width: 450px;
+    height: 60px;
+    border: none;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+  }/*input text hero section*/
+
+
+.presentation-section{
+    background-color: black;
+}
+
+
+.container-presentation{
+      display: flex;
+      align-items: center;
+      width: 1096px;
+      height: 398px;
+      margin: 0 auto;
+      padding-left: 123px;
+   
+}
+
+.text-presentation{
+    max-width: 545px;
+    line-height: auto;
+}
+
+.text-presentation p{
+    font-size: 26px;
+}
+
+.container-perguntas{
+    background-color: black;
+   
+}
+
+
+.card{
+    background-color: #303030;
+    width: 815px;
+    height: 15px;
+    margin-bottom: 8px;
+    margin: 0 auto;
+
+}
+
+.titulo{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.card p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left:  31px;
+    padding-right: 31px;
+    cursor: pointer;
+}
+
+.card{
+    width: 815px;
+    height: 75px;
+}
+
+.info-perguntas p{
+  text-align: center;
+  font-size: 19px;
+  margin-top: 66px;
+  margin-bottom: 22px;
+}
+
+
+.margem{
+    background-color: #222222;
+    height: 8px;
+    margin-bottom: 60px;
+    max-width: 100vw;
+    
+}
+
+
+.perguntas-frequentes input[type=text]{
+    width: 450px;
+    height: 60px;
+    border: none;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+ 
+  }/*input text hero section*/
+
+
+
+  .inscricao.inscricao-footer{
+    padding-bottom: 88px;
+  }
+
+  .footer{
+    background-color: black;
+  }
+
+  .footer h4{
+    font-size: 16px;
+
+  }
+
+  .container-footer{
+    display: flex;
+    width: 827px;
+    justify-content: space-between;
+    margin: 0 auto;    
+  }
+
+  .footer a{    
+    color: #757575;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 17px;
+
+  }
+
+  .footer h4{
+    color: #757575;
+    margin-bottom: 31px;
+    margin-left: 220px;
+  }
+
+  .btn-footer{
+   background-color: transparent;
+   align-items: center;
+   margin-top: 37px;
+   color: white;
+   border: 1px solid #333333;
+   border-radius: 2px;
+   cursor: pointer;
+   margin-left: 220px;
+   padding: 8px 18px;
+
+  }
+
+  .btn-footer img{
+    margin-left: 9px;
+  }
+
